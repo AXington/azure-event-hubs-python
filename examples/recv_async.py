@@ -37,9 +37,9 @@ async def pump(recv, count):
 
 try:
     ADDRESS = ("amqps://"
-               "<URL-encoded-SAS-policy>"
+               "<SAS-policy>"
                ":"
-               "<URL-encoded-SAS-key>"
+               "<SAS-key>"
                "@"
                "<mynamespace>.servicebus.windows.net"
                "/"
